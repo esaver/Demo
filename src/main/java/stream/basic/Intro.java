@@ -76,7 +76,6 @@ public class Intro {
         System.out.println("reduced: " + reduced);
 
         // Collection
-
         List<String> resultList = list.stream().map(element -> element.toUpperCase()).collect(Collectors.toList());
         resultList.stream().forEach(System.out::println);
     }
